@@ -1,0 +1,57 @@
+body {
+    margin:0px;
+    padding:0px;
+    background-color: rgb(6, 22, 36);
+}
+
+* {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.header {
+    display: flex;
+    margin-top: 20px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.reset {
+    margin-left: 20px;
+}
+
+.header h5 {
+    padding-top: 5px;
+}
+
+.board {
+    display:grid;
+    grid-template: repeat(3, 80px) / repeat(3, 80px);
+    justify-content: center;
+    grid-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}    
+
+.boardBtn {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+div.winner {
+    display: flex;
+    justify-content: center;
+}
+
+.winner h5 {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.winnerBtn {
+    width: 90px;
+}
